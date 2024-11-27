@@ -4,7 +4,7 @@ const stripe = require('stripe')('sk_test_51QIrLUE2Z2zILKrxMXlRoIp5m6WM3UEKVf31Z
 const cors = require('cors')
 
 app.use(cors({
-    origin: ['http://localhost:3000', 'https://strapigoated-jc7aq5nja-xenoblitzs-projects.vercel.app/'],
+    origin: ['http://localhost:3000', 'https://strapigoated/*'],
     credentials: true
 }))
 
