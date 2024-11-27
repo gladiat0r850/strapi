@@ -4,7 +4,7 @@ const stripe = require('stripe')('sk_test_51QIrLUE2Z2zILKrxMXlRoIp5m6WM3UEKVf31Z
 const cors = require('cors')
 
 app.use(cors({
-    origin: ['*'],
+    origin: '*',
     credentials: true
 }))
 
